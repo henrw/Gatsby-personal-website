@@ -41,17 +41,21 @@ module.exports = {
       url: 'https://twitter.com/MuzheW',
       icon: ['fab', 'twitter'],
     },
+    {
+      url: 'https://www.linkedin.com/in/muzhe-wu-573920223',
+      icon: ['fab', 'linkdin'],
+    }
   ],
   // facebook: 'https://www.facebook.com/rolwin.monteiro',
   // instagram: 'https://www.instagram.com/reevan100/',
   // rss: '/rss.xml',
-  wakatime: {
-    username: 'tcimba',
-    activity: '7add4047-08f9-4da8-b649-aa114503678f',
-    language: '460a84ab-722a-4b80-b896-cabaa13ad7eb',
-    editor: 'd851639a-28d8-4884-949f-d338a858f7e9',
-    os: 'caf7d0d1-8fd2-4595-a991-363c8583fea9',
-  },
+  // wakatime: {
+  //   username: 'tcimba',
+  //   activity: '7add4047-08f9-4da8-b649-aa114503678f',
+  //   language: '460a84ab-722a-4b80-b896-cabaa13ad7eb',
+  //   editor: 'd851639a-28d8-4884-949f-d338a858f7e9',
+  //   os: 'caf7d0d1-8fd2-4595-a991-363c8583fea9',
+  // },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT
     || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
@@ -69,14 +73,13 @@ module.exports = {
     }],
   interests: [
     {
-      icon: 'rectangle-vertical-history',
+      icon: 'circle-nodes',
       title: 'Multimodal Learning',
     }, {
       icon: 'universal-access',
       title: 'Human-Computer Interaction',
     }, {
       icon: 'language',
-      // icon: 'linux',
       title: 'Natural Language Processing',
     }],
   experience: [
@@ -84,12 +87,12 @@ module.exports = {
       title: 'Work',
       position: 'left',
       data: [
-        // {
-        //   date: 'Aug 2019 - Present',
-        //   title: 'Software Engineer',
-        //   location: 'Somewhere',
-        //   description: 'description',
-        // },
+        {
+          date: 'May 2022 - Present',
+          title: 'Research Assistant',
+          location: 'University of Michigan',
+          description: 'Work in HAIL Lab with Prof. Anhong Guo.',
+        },
       ],
     }, {
       title: 'Teaching',
@@ -123,7 +126,7 @@ module.exports = {
       title: 'University of Michigan Dean’s Honor List',
     }, {
       date: 'Nov. 2020, 2021',
-      title: 'Shanghai Jiao Tong University Undergraduate Excellent Scholarship',
+      title: 'SJTU Undergraduate Excellent Scholarship',
     },
   ],
   tagColors: [
