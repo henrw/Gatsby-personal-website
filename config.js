@@ -12,7 +12,7 @@ module.exports = {
     'Learning is the passion of my life, learning new knowledge in different fields, learning new programming languages, frameworks and features, and even learning how to play games all inspire me. My passion in learning can be witnessed by my proficiency in various OSs and programming languages. I\'m always curious about the latest language features of C++ and Python; I helped the development of many Java projects, from Swagger API to Minecraft Mods; I developed and maintained web services across many types of Linux distributions during my undergraduate study; I can process data science (my undergraduate minor) tasks in scientific Python, MATLAB, Julia, and Mathematica; I\'m also broadening my language family by learning some new ones such as Go and Rust.',
     'As a fullstack developer skilled in Python, Javascript (React), SQL, CSS and many others, I built the theme of this website with [Gatsby](https://www.gatsbyjs.com/). The theme is named "gatsby-theme-academic", which is specially designed for academic usage by researchers and students. It is still under development and will be open-sourced soon, please check this [post](/posts/hello-world) for details.'
   ],
-  avatar: 'me.png',
+  avatar: 'avatar.png',
   professions: [
     'Ph.D Student',
     'Full Stack Developer',
