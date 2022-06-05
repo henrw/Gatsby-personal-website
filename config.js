@@ -38,12 +38,11 @@ module.exports = {
       url: 'https://github.com/henrywumz',
       icon: ['fab', 'github'],
     }, {
+      url: 'https://www.linkedin.com/in/muzhe-wu-573920223',
+      icon: ['fab', 'linkedin'],
+    }, {
       url: 'https://twitter.com/MuzheW',
       icon: ['fab', 'twitter'],
-    },
-    {
-      url: 'https://www.linkedin.com/in/muzhe-wu-573920223',
-      icon: ['fab', 'linkdin'],
     }
   ],
   // facebook: 'https://www.facebook.com/rolwin.monteiro',
