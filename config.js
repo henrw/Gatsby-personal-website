@@ -72,7 +72,7 @@ module.exports = {
     }],
   interests: [
     {
-      icon: 'circle-nodes',
+      icon: 'share-nodes',
       title: 'Multimodal Learning',
     }, {
       icon: 'universal-access',
