@@ -94,14 +94,18 @@ module.exports = {
         },
       ],
     }, {
-      title: 'Teaching',
+      title: 'Competition',
       position: 'right',
       data: [
-        // {
-        //   date: 'Aug 2019',
-        //   title: 'Teaching Assistant of XXX',
-        //   location: 'Somewhere',
-        // },
+        {
+          date: 'Feb 2021',
+          title: 'Mathematical Contest in Modeling',
+          description: 'Meritorious Winner Prize',
+        }, {
+          date: 'Feb 2021',
+          title: 'University Physics Competition',
+          description: 'Silver Medal',
+        },
       ],
     }, {
       title: 'Volunteer',
