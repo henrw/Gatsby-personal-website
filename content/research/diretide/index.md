@@ -9,7 +9,7 @@ authors:
   # - name: "Valve"
   #   url: "https://www.valvesoftware.com/"
   # - "Perfect World"
-path: "research/mmtutor"
+path: "research/diretide"
 excerpt: Using Computer Vision and AR to support physical task learning.
 selected: true
 cover: #"./preview.png"

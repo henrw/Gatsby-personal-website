@@ -29,7 +29,6 @@ module.exports = {
     resume: 'resume',
     tags: 'tags',
     research: 'research',
-    project: 'project',
   },
   social: [
     {
@@ -61,12 +60,12 @@ module.exports = {
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   education: [
     {
-      date: 'Sept 2021 - Present',
+      date: 'Sept. 2021 - Present',
       icon: 'university',
       title: 'B.S.E. in Computer Science',
       location: 'University of Michigan',
     }, {
-      date: 'Sept 2019 - Aug 2021',
+      date: 'Sept. 2019 - Aug. 2021',
       icon: 'university',
       title: 'B.S.E. in Electrical and Computer Engineering',
       location: 'Shanghai Jiao Tong University',
@@ -103,7 +102,7 @@ module.exports = {
           title: 'Mathematical Contest in Modeling',
           description: 'Meritorious Winner Prize',
         }, {
-          date: 'Nov 2020',
+          date: 'Feb 2021',
           title: 'University Physics Competition',
           description: 'Silver Medal',
         },
@@ -113,7 +112,7 @@ module.exports = {
       position: 'left',
       data: [
         {
-          date: 'Sept 2019 - Dec 2020',
+          date: 'Sept. 2019 - Dec. 2020',
           title: 'Visiting and helping people with mental difficulties',
           location: 'Jiangchuan Sunshine Nursing House, Shanghai',
         }, {
@@ -126,10 +125,10 @@ module.exports = {
   ],
   awards: [
     {
-      date: 'Dec 2021',
+      date: 'Dec. 2021',
       title: 'University of Michigan Dean’s Honor List',
     }, {
-      date: 'Nov 2020, 2021',
+      date: 'Nov. 2020, 2021',
       title: 'SJTU Undergraduate Excellent Scholarship',
     },
   ],
