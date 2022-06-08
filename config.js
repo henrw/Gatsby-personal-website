@@ -13,7 +13,7 @@ module.exports = {
   professions: [
     'CSE Student',
   ],
-  birthday: 'Aug 22, 2001',
+  birthday: 'Some day',
   location: 'Ann Arbor, MI',
   email: 'henrw@umich.edu',
   tocMaxDepth: 2,
@@ -29,7 +29,6 @@ module.exports = {
     resume: 'resume',
     tags: 'tags',
     research: 'research',
-    project: 'project',
   },
   social: [
     {
