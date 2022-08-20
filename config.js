@@ -9,7 +9,7 @@ module.exports = {
     'I am currently a Junior student studying for Computer Science at University of Michigan ([Umich](https://umich.edu/)) and a dual degree of Electrical and Computer Engineering at Shanghai Jiao Tong University ([SJTU](https://en.sjtu.edu.cn/)).',
     'My research interest mainly lies in multimodal learning and Human-Computer Interaction.',
   ],
-  avatar: 'me.png',
+  avatar: 'avatar.png',
   professions: [
     'CSE Student',
   ],
