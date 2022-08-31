@@ -90,7 +90,13 @@ module.exports = {
           date: 'May 2022 - Present',
           title: 'Research Assistant',
           location: 'University of Michigan',
-          description: 'Work in HAIL Lab with Prof. Anhong Guo.',
+          description: 'Work in HAIL Lab with Prof. Anhong Guo & Prof. Xu Wang.',
+        },
+        {
+          date: 'July 2022 - Present',
+          title: 'Research Assistant',
+          location: 'University of Michigan',
+          description: 'Work in LIT Lab with Prof. Veronica Perez-Rosas.',
         },
       ],
     }, {
@@ -125,10 +131,10 @@ module.exports = {
   ],
   awards: [
     {
-      date: 'Dec 2021',
+      date: '2021',
       title: 'University of Michigan Dean’s Honor List',
     }, {
-      date: 'Nov 2020, 2021',
+      date: '2019, 2020',
       title: 'SJTU Undergraduate Excellent Scholarship',
     },
   ],
