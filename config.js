@@ -6,7 +6,7 @@ module.exports = {
   author: 'Muzhe Wu',
   authorAlternative: '吴沐哲',
   introduction: [
-    'I am currently a Junior student studying for Computer Science at University of Michigan ([Umich](https://umich.edu/)) and a dual degree of Electrical and Computer Engineering at Shanghai Jiao Tong University ([SJTU](https://en.sjtu.edu.cn/)).',
+    'I am currently a senior student studying for Computer Science at University of Michigan ([Umich](https://umich.edu/)) and a dual degree of Electrical and Computer Engineering at Shanghai Jiao Tong University ([SJTU](https://en.sjtu.edu.cn/)).',
     'My research interest mainly lies in multimodal learning and Human-Computer Interaction.',
   ],
   avatar: 'avatar.png',
