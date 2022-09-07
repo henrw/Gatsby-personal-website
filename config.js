@@ -1,6 +1,6 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://henrywumz.github.io',
+  siteUrl: 'https://henrw.github.io',
   title: 'Muzhe Wu',
   description: 'Personal Website of Muzhe Wu',
   author: 'Muzhe Wu',
@@ -35,7 +35,7 @@ module.exports = {
       url: '/resume.pdf',
       icon: ['ai', 'cv'],
     }, {
-      url: 'https://github.com/henrywumz',
+      url: 'https://github.com/henrw',
       icon: ['fab', 'github'],
     }, {
       url: 'https://www.linkedin.com/in/muzhe-wu-573920223',
