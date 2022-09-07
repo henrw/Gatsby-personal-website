@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://henrywumz.github.io/sitemap/sitemap-index.xml
-Host: https://henrywumz.github.io
+Sitemap: https://henrw.github.io/sitemap/sitemap-index.xml
+Host: https://henrw.github.io
