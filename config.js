@@ -8,7 +8,7 @@ module.exports = {
   introduction: [
     'I am currently a senior student studying for a bachelor\'s degree in Computer Science at [University of Michigan](https://umich.edu/) and a dual degree in Electrical and Computer Engineering at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/).',
     'My research interest mainly lies in the interdisciplinary field of Human-Computer Interaction and Artificial Intelligence, in which I focus on creating intelligent interactive systems/agents that can learn from humans’ behaviors and respond in alignment with humans’ intents.',
-    'I’m fortunate to have worked with Professors [Anhong Guo](https://guoanhong.com/), [Xu Wang](https://web.eecs.umich.edu/~xwanghci/), and [Veronica Perez Rosas](https://vrncapr.engin.umich.edu/) through my undergraduate research.'
+    'I’m fortunate to have worked with Professors [Anhong Guo](https://guoanhong.com/), [Xu Wang](https://web.eecs.umich.edu/~xwanghci/), [Veronica Perez Rosas](https://vrncapr.engin.umich.edu/) through my undergraduate research.'
   ],
   avatar: 'avatar.png',
   professions: [
@@ -94,13 +94,19 @@ module.exports = {
           date: 'May 2022 - Present',
           title: 'Research Assistant',
           location: 'University of Michigan',
-          description: 'Work in HAIL Lab with Prof. Anhong Guo & Prof. Xu Wang.',
+          description: 'Work in HAIL Lab and Lifelong Learning Lab with Prof. Anhong Guo and Xu Wang.',
         },
         {
-          date: 'July 2022 - Present',
+          date: 'Jul 2022 - Present',
           title: 'Research Assistant',
           location: 'University of Michigan',
-          description: 'Work in LIT Lab with Prof. Veronica Perez-Rosas.',
+          description: 'Work in LIT Lab with Dr. Veronica Perez-Rosas.',
+        },
+        {
+          date: 'Jul 2022 - Sep 2022',
+          title: 'Research Assistant',
+          location: 'NVIDIA',
+          description: 'Work in Jim Team with Dr. Linxi "Jim" Fan',
         },
       ],
     }, {
@@ -110,12 +116,12 @@ module.exports = {
         {
           date: 'Feb 2021',
           title: 'Mathematical Contest in Modeling',
-          location: '[Homepage](https://www.comap.com/contests/mcm-icm)',
+          location: ' ',
           description: 'Meritorious Winner Prize',
         }, {
           date: 'Nov 2020',
           title: 'University Physics Competition',
-          location: '[Homepage](http://www.uphysicsc.com/)',
+          location: ' ',
           description: 'Silver Medal',
         },
       ],
@@ -125,12 +131,14 @@ module.exports = {
       data: [
         {
           date: 'Sept 2019 - Dec 2020',
-          title: 'Visiting and helping people with mental difficulties',
+          title: 'JI Voluntary Association',
           location: 'Jiangchuan Sunshine Nursing House, Shanghai',
+          description: 'Visit and help people with mental difficulties.'
         }, {
           date: 'May 2020',
-          title: 'Lecturing about College Entrance Examination Prep',
+          title: 'High School Advisory',
           location: 'No.2 Foreign Language School, Wenzhou',
+          description: 'Advise high school students on College Entrance Examination Prep',
         }
       ],
     },
