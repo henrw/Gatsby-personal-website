@@ -6,8 +6,9 @@ module.exports = {
   author: 'Muzhe Wu',
   authorAlternative: '吴沐哲',
   introduction: [
-    'I am currently a senior student studying for Computer Science at University of Michigan ([Umich](https://umich.edu/)) and a dual degree of Electrical and Computer Engineering at Shanghai Jiao Tong University ([SJTU](https://en.sjtu.edu.cn/)).',
-    'My research interest mainly lies in multimodal learning and Human-Computer Interaction.',
+    'I am currently a senior student studying for a bachelor\'s degree in Computer Science at [University of Michigan](https://umich.edu/) and a dual degree in Electrical and Computer Engineering at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/).',
+    'My research interest mainly lies in the interdisciplinary field of Human-Computer Interaction and Artificial Intelligence, in which I focus on creating intelligent interactive systems/agents that can learn from humans’ behaviors and respond in alignment with humans’ intents.',
+    'I’m fortunate to have worked with Professors [Anhong Guo](https://guoanhong.com/), [Xu Wang](https://web.eecs.umich.edu/~xwanghci/), and [Veronica Perez Rosas](https://vrncapr.engin.umich.edu/) through my undergraduate research.'
   ],
   avatar: 'avatar.png',
   professions: [
@@ -60,27 +61,30 @@ module.exports = {
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   education: [
     {
-      date: 'Sept 2021 - Present',
+      date: 'Aug 2021 - Present',
       icon: 'university',
-      title: 'B.S.E. in Computer Science',
+      title: 'B.S. in Computer Science',
       location: 'University of Michigan',
     }, {
-      date: 'Sept 2019 - Aug 2021',
+      date: 'Sep 2019 - Aug 2021',
       icon: 'university',
-      title: 'B.S.E. in Electrical and Computer Engineering',
+      title: 'B.S. in Electrical and Computer Engineering',
       location: 'Shanghai Jiao Tong University',
     }],
   interests: [
     {
-      icon: 'layer-group',
-      title: 'Multimodal Learning',
-    }, {
       icon: 'universal-access',
       title: 'Human-Computer Interaction',
-    }, {
+    },
+    {
       icon: 'language',
       title: 'Natural Language Processing',
-    }],
+    },
+    {
+      icon: 'layer-group',
+      title: 'Multimodal Learning',
+    }
+  ],
   experience: [
     {
       title: 'Work',
@@ -106,10 +110,12 @@ module.exports = {
         {
           date: 'Feb 2021',
           title: 'Mathematical Contest in Modeling',
+          location: '[Homepage](https://www.comap.com/contests/mcm-icm)',
           description: 'Meritorious Winner Prize',
         }, {
           date: 'Nov 2020',
           title: 'University Physics Competition',
+          location: '[Homepage](http://www.uphysicsc.com/)',
           description: 'Silver Medal',
         },
       ],
@@ -131,10 +137,10 @@ module.exports = {
   ],
   awards: [
     {
-      date: '2021',
+      date: '2021 Fall, 2022 Winter',
       title: 'University of Michigan Dean’s Honor List',
     }, {
-      date: '2019, 2020',
+      date: '2019-2020, 2020-2021',
       title: 'SJTU Undergraduate Excellent Scholarship',
     },
   ],
