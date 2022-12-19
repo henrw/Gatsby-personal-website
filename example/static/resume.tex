@@ -1,0 +1,217 @@
+%-------------
+% Resume in Latex
+% Author : Sidratul Muntaha Ahmed
+% License : MIT
+%------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%-----FONT OPTIONS-----
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubHeader}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubHeader}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeader}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeaderListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeaderListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%----------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%-----Header-----
+
+
+\begin{center}
+    \textbf{\Huge Boming Zhang} \\ \vspace{1pt}
+    \small (+86)180-1720-9402 $|$ \href{mailto:boyanzh233@gmail.com}{\underline{boyanzh233@gmail.com}} $|$
+    \href{https://boyanzh.site}{\underline{boyanzh.site}} $|$
+    \href{https://github.com/BoYanZh}{\underline{github.com/BoYanZh}}
+\end{center}
+
+
+%------EDUCATION------
+\section{Education}
+  \resumeSubHeaderListStart
+    \resumeSubHeader
+      {Shanghai Jiao Tong University (UM-SJTU Joint Institute)}{Sept. 2018 - Aug. 2022}
+      {BEng in Electrical and Computer Engineering (minor in Computer Science, \textbf{GPA 4.0/4.0})}{Shanghai, China}
+          \resumeItemListStart
+            \resumeItem{Relevant Coursework: Intro to OS (A+), Methods and Tools for Big Data (A+), Intro to Crypto. (A)}
+            \resumeItem{\textbf{2020-2021 Undergraduate Excellent Scholarship}}
+            \resumeItem{\textbf{Honors Research Program in the Undergraduate Research Course}}
+            \resumeItem{Outstanding Member of Technology Department UM-SJTU Joint Institute Student Union}
+          \resumeItemListEnd
+
+  \resumeSubHeaderListEnd
+
+%------EXPERIENCE------
+\section{Experience}
+  \resumeSubHeaderListStart
+  \resumeSubHeader
+    {Software Engineer Intern}{Feb. 2022 - Jul. 2022}
+    {\href{https://naivesystems.com}{Naive Systems}}{Shanghai, China}
+    \resumeItemListStart
+      \resumeItem{Take part in a code analyzer and relative DevSecOps products. Implement checkers of some guidelines in MISRA C, based on \textbf{Clang Static Analyzer, Libtooling, and Cppcheck}. Responsible for all checkers' tests.}
+      \resumeItem{Develop a VSCode extension to read protobuf analyzer results. Implement the i18n feature for checkers.}
+    \resumeItemListEnd
+
+    \resumeSubHeader
+      {Research \& Development Engineer Intern}{Jun. 2021 - Feb. 2022}
+      {Shanghai Zhimian Weiye Technology}{Shanghai, China}
+      \resumeItemListStart
+        \resumeItem{Build Intell. IoT Firefighting System project. Design the architecture, and work as a full-stack developer.}
+      \resumeItemListEnd
+
+    \resumeSubHeader
+      {Research Assistant}{Mar. 2021 - Feb. 2022}
+      {Intelligent Design and Optimization Research Lab, advisor Prof. Mian Li}{Shanghai, China}
+      \resumeItemListStart
+        \resumeItem{\textbf{Technical leader} of 2 Undergraduate Innovation Practice Programs. Build a risk control center for Shanghai Jiao Tong University School of Medicine, used by over 10 different management systems and over 100 faculties.}
+        \resumeItem{Develop a cryptocurrency funding rate arbitrage system in async python to get \textbf{milli-second transaction time}.}
+        \resumeItem{Maintain a filling station hazard CV detection system based on \textbf{NVIDIA Jetson} and \textbf{lock-free queue}.}
+      \resumeItemListEnd
+
+    \resumeSubHeader
+      {Teaching Assistant (Intro to OS, Intro to Comp.)}{Sep. 2020 - Dec. 2020, Sep. 2021 - Dec. 2021}
+      {Shanghai Jiao Tong University, advisor Prof. Manuel Charlemagne}{Shanghai, China}
+      \resumeItemListStart
+        \resumeItem{Host \textbf{exam review sessions} and \textbf{weekly lab sessions} for at most 100 students. Grade labs and homework.}
+        \resumeItem{Develop an automatic cast-to-cast grading script. Maintain servers for up to 150 students' usage.}
+      \resumeItemListEnd
+
+    \resumeSubHeader
+      {Deputy Director}{Sep. 2018 - Jul. 2019}
+      {Technology Department UM-SJTU Joint Institute Student Union}{Shanghai, China}
+      \resumeItemListStart
+        \resumeItem{Build multimedia system and chatbot with PyQt5 for welcoming party. Write posts on WeChat official accounts.}
+      \resumeItemListEnd
+
+
+    \resumeSubHeaderListEnd
+
+%------PROJECTS------
+\section{Projects}
+
+    \resumeSubHeaderListStart
+      \resumeProjectHeader
+        {\href{https://github.com/joint-online-judge}{\textbf{JOJ 2.0}} $|$ \emph{Python3, Cython, PostgreSQL, Redis, Celery, LakeFS, Docker, CGroupsV1, React.js}}{Mar. 2021 - Present}
+        \resumeItemListStart
+          \resumeItem{Develop an online judge system from scratch for various courses. Provide stable, secure, fast, well-documented online judge service with various integrations for \textbf{over 1000 students in the institute}.}
+          \resumeItem{Build the judger's sandbox with \textbf{namespace and containerization} for isolation and measurement.}
+        \resumeItemListEnd
+      \resumeProjectHeader
+        {\href{https://github.com/SJTU-IPP-Firefighting}{\textbf{Intell. IoT Firefighting System}} $|$ \emph{Python3, Go, MongoDB, Docker, React.js, React Native}}{Mar. 2021 - Feb. 2022}
+        \resumeItemListStart
+          \resumeItem{Start from scratch, build a high perf. firefighting platform (Web + App) based on IoT data. Use an algorithm to detect potential hazards and report fire alarms with high accuracy in buildings to \textbf{save life and money}.}
+          \resumeItem{Deploy the system on \textbf{the fire brigade of Shanghai Province}, connected with \textbf{over 7 million IoT devices}.}
+        \resumeItemListEnd
+      \resumeProjectHeader
+        {\href{https://gist.github.com/BoYanZh/fc4469c20fd6adf42c212114532aaac0}{\textbf{FOCS student system \& related tools}} $|$ \emph{Python3, Go, Node.js, Docker, Nginx, Certbot}}{Nov. 2018 - Present}
+        \resumeItemListStart
+          \resumeItem{Develop new features and maintain the online service and software, including online judge, self-service Git platform, CI platform for \textbf{over 300 students from 10 courses each term} to build, test, and grade their codes.}
+          \resumeItem{Build various tools to connect Canvas LMS, Online Judge, and Gitea together, which are widely used by students and teaching assistants in Joint Institute to save their time. Get \textbf{in total 60+ stars} on Github.}
+        \resumeItemListEnd
+    \resumeSubHeaderListEnd
+
+
+%
+%------TECHNICAL SKILLS------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python3, (modern) C++, C (Linux), Go, Typescript, Shell, \LaTeX} \\
+     \textbf{Frameworks}{: FastAPI, Django, Flask, React.js, PyTest, NumPy} \\
+     \textbf{Developer Tools}{: Git, Docker, Github, Drone.io, VSCode, Pre-commit} \\
+     \textbf{Data Management Tools}{: PostgreSQL, MySQL, MongoDB, Redis, RabbitMQ} \\
+    }}
+ \end{itemize}
+
+
+%----------------------
+\end{document}

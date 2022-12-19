@@ -16,37 +16,41 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [ 12.x ]
+        node-version: [ 14.x ]
 
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Cache node modules
+      - name: Cache resume pdf
+        id: cache-resume-pdf
         uses: actions/cache@v2
         env:
-          cache-name: cache-node-modules
+          cache-name: cache-resume-pdf
         with:
-          # npm cache files are stored in `~/.npm` on Linux/macOS
-          path: ~/.cache/yarn
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
+          path: example/static/resume.pdf
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/example/static/resume.tex') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-
-      - run: npm i -g yarn
+      - name: Build resume pdf
+        if: steps.cache-resume-pdf.outputs.cache-hit != 'true'
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: example/static/resume.tex
+          post_compile: "rm example/static/resume.tex && cp resume.pdf example/static/resume.pdf"
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: yarn
       - run: yarn
-      - run: yarn build
+      - run: yarn workspace example build
       - name: Deploy to GitHub Pages
         if: success() && github.ref == 'refs/heads/master'
         uses: crazy-max/ghaction-github-pages@v2
         with:
           target_branch: gh-pages
-          build_dir: public
+          build_dir: example/public
           keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
