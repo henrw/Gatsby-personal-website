@@ -87,7 +87,7 @@ module.exports = {
   ],
   experience: [
     {
-      title: 'Work',
+      title: 'Lab',
       position: 'left',
       data: [
         {
