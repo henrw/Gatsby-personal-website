@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://tc-imba.github.io/gatsby-theme-academic/sitemap-index.xml
-Host: https://tc-imba.github.io
+Sitemap: https://henrw.github.io/gatsby-theme-academic/sitemap-index.xml
+Host: https://henrw.github.io
