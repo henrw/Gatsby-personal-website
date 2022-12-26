@@ -1,6 +1,6 @@
 module.exports = {
   pathPrefix: '/gatsby-theme-academic',
-  siteUrl: 'https://tc-imba.github.io',
+  siteUrl: 'https://henrw.github.io',
   title: 'Muzhe Wu',
   description: 'Personal Website of Muzhe Wu',
   author: 'Muzhe Wu',
