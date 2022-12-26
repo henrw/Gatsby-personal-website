@@ -27,36 +27,58 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-fa8cb3d9ed59ebc47e24.js"
+    "url": "webpack-runtime-7f7b36a9a41145ef2db9.js"
   },
   {
-    "url": "styles.82f16f189df33ab7fee4.css"
+    "url": "styles.ab1a06c827c3a8e13b51.css"
   },
   {
-    "url": "framework-b1a62ccc8e4ef171476a.js"
+    "url": "framework-5e3c4ecb1b492caebc31.js"
   },
   {
-    "url": "cb1608f2-24b4fb05d126272b5e67.js"
+    "url": "14e9c903-641cf589e62def486a04.js"
   },
   {
-    "url": "a9a7754c-3d920a932fecf7dfcb57.js"
+    "url": "99908690-2b2793a9e93dae4b6388.js"
   },
   {
-    "url": "app-7dbf713680afe59b9e14.js"
+    "url": "884b4bb2-8cf3541428160b71b2e5.js"
+  },
+  {
+    "url": "ade9e5ae-121b1b0e0e132ae80c7a.js"
+  },
+  {
+    "url": "app-fc54160aae67e2dc1106.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "c463da25e4f2f51dd7cb6b3f252d6d14"
+    "revision": "df33ec912651a99dacafff167fe9a774"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-35c2cf55787ca9224ef3.js"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-2131f5c787f2aa9613ac.js"
   },
   {
-    "url": "polyfill-00a10e462e752fae2d56.js"
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "1b4c8f1d4b5140d97c9726abb46a30c0"
+  },
+  {
+    "url": "page-data/sq/d/1552981879.json",
+    "revision": "a2f67a8ff4517d1a504f82dd2775c58c"
+  },
+  {
+    "url": "page-data/sq/d/2788541457.json",
+    "revision": "eab78defcc13e3b2eaab1cedaa4ea7b5"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "fbb9fe59d8f64fb367a6f2db3f0f123e"
+  },
+  {
+    "url": "polyfill-e98d82ce4f21e8d05ea3.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "3d1c9acf090714e754e06a3364b55360"
+    "revision": "4922a0e06f8b3d13b33e80890158de99"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -143,12 +165,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/gatsby-theme-academic`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-7dbf713680afe59b9e14.js`))) {
+  if (!resources || !(await caches.match(`/gatsby-theme-academic/app-fc54160aae67e2dc1106.js`))) {
     return await fetch(event.request)
   }
 
@@ -161,7 +183,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/gatsby-theme-academic/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
