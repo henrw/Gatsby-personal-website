@@ -46,10 +46,13 @@ module.exports = {
     }, {
       url: 'https://twitter.com/MuzheW',
       icon: ['fab', 'twitter'],
-    }
+    }, {
+      url: 'https://www.instagram.com/wumuzhe/',
+      icon: ['fab', 'instagram'],
+    },
   ],
   // facebook: 'https://www.facebook.com/rolwin.monteiro',
-  // instagram: 'https://www.instagram.com/reevan100/',
+  // instagram: 'https://www.instagram.com/wumuzhe/',
   // rss: '/rss.xml',
   // wakatime: {
   //   username: 'tcimba',
