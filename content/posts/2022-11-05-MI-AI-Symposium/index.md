@@ -4,7 +4,7 @@ tags: ["AI"]
 date: 2022-11-05
 cover: "./preview.jpg"
 path: "posts/mi-ai-symposium-2022"
-excerpt: My first AI Symposium experience.
+excerpt: My first Michigan AI Symposium experience (presenter + attendee).
 ---
 
 I attended Michigan AI Symposium 2022 and learned a lot.

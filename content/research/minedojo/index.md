@@ -1,10 +1,10 @@
 ---
-title: "MineDojo"
+title: "MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge"
 tags:
   - "GeneralistAgent"
   - "Simulation"
   - "RL"
-date: 2022-07-06
+date: 2022-10-12
 # authors:
 #   - name: "Advised by Dr. Jim Fan"
 #     url: "https://jimfan.me/"

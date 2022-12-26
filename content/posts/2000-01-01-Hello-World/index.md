@@ -4,7 +4,7 @@ tags: ["Gatsby"]
 date: 2000-01-01
 cover: "./preview.png"
 path: "posts/hello-world"
-excerpt: Template...
+excerpt: Template Markdown file exemplifying all the features supported by the Gatsby-theme-academic-modified.
 ---
 
 I started to build this personal website yesterday.

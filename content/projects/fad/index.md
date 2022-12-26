@@ -6,7 +6,7 @@ tags:
   - "NLP"
 date: 2022-12-10
 path: "projects/fad"
-excerpt: Dire Tide 2020
+excerpt: A building block useful in the fine-tuning process for text generators like BART, which addresses problems of discreteness in adversarial learning for NLP, better captures the word distribution, and achieves SOTA ROUGE score of abstractive text summarization in DailyMail/CNN dataset. 
 # selected: true
 cover: "./preview.png"
 links:
@@ -17,27 +17,8 @@ links:
 priority: 20
 ---
 
-## Title 1
-
-### Preview
-Course Project of [EECS 598 Science of Deep Learning](https://docs.google.com/document/d/1u4llb2tjRb47wPBA4fEaHRxuvwDEwuUbs8vfBANVIy4/edit)
-[Preview](./preview.png)
-
-### Website
-
-[Dire Tide 2020](https://www.dota2.com/diretide/?l=english)
-
-## Title 2
-
-## Title 3
-
-## Title 4
-
-```cpp
-#include <iostream>
-
-int main() {
-    std::cout << "Hello World!";
-    return 0;
-}
-```
+## Introduction
+This is the course project for [EECS 487 Intro to Natural Language Processing](https://web.eecs.umich.edu/~wangluxy/courses/eecs487_wn2022/eecs487_wn2022.html)(NLP) and my first project about NLP, conducted with Zixuan Pan and Jiarui Liu. "Fad" as our project name is, my interest in NLP is not :)
+## Demo
+Please refer to the paper for detailed methodology, experiments, results and analysis. For a quick demo here, compared to the base line model (BART-base), FAD managed to sift out unimportant info and generate more abstractive and concise summaries.
+![demo](./demo.png)
