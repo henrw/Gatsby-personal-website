@@ -10,7 +10,7 @@ excerpt: Dire Tide 2020
 cover: "./preview.png"
 links:
   - name: "pdf"
-    file: "./spurious.pdf"
+    url: "spurious.pdf"
   - name: "Github"
     url: "https://github.com/henrw/spurious-correlation-metadataset"
 priority: 20

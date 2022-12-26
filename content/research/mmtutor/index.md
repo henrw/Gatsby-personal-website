@@ -12,7 +12,7 @@ selected: true
 cover: "./preview.png"
 links:
   - name: "poster"
-    file: "./poster.pdf"
+    url: "poster.pdf"
   - name: "Github"
     url: "https://github.com/HumanAILab/Multimodal-Tutor"
 priority: 30

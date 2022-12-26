@@ -11,8 +11,6 @@ excerpt: Dire Tide 2020
 selected: true
 cover: "./preview.jpg"
 links:
-  - name: "poster"
-    file: "./poster.pdf"
   - name: "Github"
     url: "https://github.com/HumanAILab/Multimodal-Tutor"
 priority: 25

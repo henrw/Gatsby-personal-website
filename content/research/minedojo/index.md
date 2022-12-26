@@ -13,8 +13,6 @@ excerpt: Dire Tide 2020
 selected: true
 cover: "./preview.jpeg"
 links:
-  - name: "pdf"
-    file: "./diretide.pdf"
   - name: "website"
     url: "https://minedojo.org/"
 priority: 20

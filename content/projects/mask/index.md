@@ -10,8 +10,6 @@ excerpt: Dire Tide 2020
 # selected: true
 cover: "./preview.png"
 links:
-  - name: "pdf"
-    file: "./fad.pdf"
   - name: "Github"
     url: "https://github.com/henrw/VG101_project_MaskDistributionSimulator"
 priority: 20
