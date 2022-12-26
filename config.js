@@ -1,31 +1,29 @@
 module.exports = {
   pathPrefix: '',
   siteUrl: 'https://henrw.github.io',
-  title: 'Yihao Liu',
-  description: 'Personal Website of Yihao Liu',
-  author: 'Yihao Liu',
-  authorAlternative: '刘逸灏',
+  title: 'Muzhe Wu',
+  description: 'Personal Website of Muzhe Wu',
+  author: 'Muzhe Wu',
+  authorAlternative: '吴沐哲',
   introduction: [
-    'I\'m currently a Ph.D student in Nanyang Technological University (NTU), Singapore. I\'m an graduate researcher in [SCALE](https://www.ntu.edu.sg/scale/about-us) lab, supervised by Prof. Tang Xueyan, currently working on Algorithms in Multi-Agent Systems.',
-    'Despite my current research topic, my research interest spread widely in operating systems, distributed systems, network security and algorithms. "Practice is the sole criterion of truth", I would like to build effective systems and platforms for researchers, developers and the community. I\'m ready to contribute to any small improvement of the infrastructure.',
-    'Besides a researcher, I started my life as a programmer and developer quite early. I learned C/C++ and attended NOIP (National Olympiad in Informatics in Provinces) in China and it becomes my most confident language. I developed my interest in other fields in computer science when I tried to find out what exactly happened behind these code I wrote. I was deeply attracted by the open source community and became an active developer in many projects as well.',
-    'Learning is the passion of my life, learning new knowledge in different fields, learning new programming languages, frameworks and features, and even learning how to play games all inspire me. My passion in learning can be witnessed by my proficiency in various OSs and programming languages. I\'m always curious about the latest language features of C++ and Python; I helped the development of many Java projects, from Swagger API to Minecraft Mods; I developed and maintained web services across many types of Linux distributions during my undergraduate study; I can process data science (my undergraduate minor) tasks in scientific Python, MATLAB, Julia, and Mathematica; I\'m also broadening my language family by learning some new ones such as Go and Rust.',
-    'As a fullstack developer skilled in Python, Javascript (React), SQL, CSS and many others, I built the theme of this website with [Gatsby](https://www.gatsbyjs.com/). The theme is named "gatsby-theme-academic-modified", which is specially designed for academic usage by researchers and students. It is still under development and will be open-sourced soon, please check this [post](/posts/hello-world) for details.'
+    'I am currently a senior student studying for a bachelor\'s degree in Computer Science at [University of Michigan](https://umich.edu/) and a dual degree in Electrical and Computer Engineering at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/).',
+    'My research interest mainly lies in the interdisciplinary field of Human-Computer Interaction and Artificial Intelligence, in which I focus on creating intelligent interactive systems/agents that can learn from humans’ behaviors and respond in alignment with humans’ intents.',
+    'I’m fortunate to have worked with Professors [Anhong Guo](https://guoanhong.com/), [Xu Wang](https://web.eecs.umich.edu/~xwanghci/), [Veronica Perez Rosas](https://vrncapr.engin.umich.edu/) through my undergraduate research.'
   ],
   avatar: 'avatar.png',
   professions: [
-    'Ph.D Student',
-    'Full Stack Developer',
+    'CSE Student',
+    'HCI/AI Researcher'
   ],
-  birthday: 'June 15, 1997',
-  location: 'Singapore',
-  email: 'liuyh970615@gmail.com',
   tocMaxDepth: 2,
   excerptMaxLength: 500,
+  // birthday: 'Some day',
+  location: 'Ann Arbor, MI',
+  email: 'henrw@umich.edu',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  disqusScript: process.env.DISQUS_SCRIPT
-    || 'https://tc-imba.disqus.com/embed.js',
+  // disqusScript: process.env.DISQUS_SCRIPT
+  //   || 'https://tc-imba.disqus.com/embed.js',
   pages: {
     home: '/',
     posts: 'posts',
@@ -40,130 +38,165 @@ module.exports = {
       url: '/resume.pdf',
       icon: ['ai', 'cv'],
     }, {
-      url: 'https://github.com/tc-imba',
+      url: 'https://github.com/henrw',
       icon: ['fab', 'github'],
     }, {
-      url: 'https://twitter.com/liuyh615',
+      url: 'https://www.linkedin.com/in/muzhe-wu-573920223',
+      icon: ['fab', 'linkedin'],
+    }, {
+      url: 'https://twitter.com/MuzheW',
       icon: ['fab', 'twitter'],
+    }, {
+      url: 'https://www.instagram.com/wumuzhe/',
+      icon: ['fab', 'instagram'],
     },
   ],
-  wakatime: {
-    username: 'tcimba',
-    activity: '7add4047-08f9-4da8-b649-aa114503678f',
-    language: '460a84ab-722a-4b80-b896-cabaa13ad7eb',
-    editor: 'd851639a-28d8-4884-949f-d338a858f7e9',
-    os: 'caf7d0d1-8fd2-4595-a991-363c8583fea9',
-  },
+  // facebook: 'https://www.facebook.com/rolwin.monteiro',
+  // instagram: 'https://www.instagram.com/wumuzhe/',
+  // rss: '/rss.xml',
+  // wakatime: {
+  //   username: 'tcimba',
+  //   activity: '7add4047-08f9-4da8-b649-aa114503678f',
+  //   language: '460a84ab-722a-4b80-b896-cabaa13ad7eb',
+  //   editor: 'd851639a-28d8-4884-949f-d338a858f7e9',
+  //   os: 'caf7d0d1-8fd2-4595-a991-363c8583fea9',
+  // },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT
     || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   education: [
     {
-      date: 'Jan 2020 - Present',
-      icon: 'graduation-cap',
-      title: 'Ph.D in Computer Science',
-      location: 'Nanyang Technological University, Singapore',
-    }, {
-      date: 'Sept 2017 - Aug 2021',
+      date: 'Aug 2021 - Present',
       icon: 'university',
-      title: '(Second) B.S. in Applied Mathematics',
-      location: 'Shanghai Jiao Tong University, China',
+      title: 'B.S. in Computer Science',
+      location: 'University of Michigan',
     }, {
-      date: 'Sept 2015 - Aug 2019',
+      date: 'Sep 2019 - Aug 2021',
       icon: 'university',
-      title: 'B.S.E. in Electrical and Computer Engineering (with Minor in Data Science)',
-      location: 'Shanghai Jiao Tong University, China',
-    }, {
-      date: 'Sept 2008 - June 2015',
-      icon: 'school',
-      title: 'Middle School',
-      location: 'Shanghai Southwest Weiyu Middle School, China',
+      title: 'B.S. in Electrical and Computer Engineering',
+      location: 'Shanghai Jiao Tong University',
     }],
   interests: [
     {
-      icon: 'cubes',
-      title: 'Distributed Systems',
-    }, {
-      icon: ['fab', 'docker'],
-      title: 'Containerization',
-    }, {
+      icon: 'universal-access',
+      title: 'Human-Computer Interaction',
+    },
+    {
+      icon: 'language',
+      title: 'Natural Language Processing',
+    },
+    {
       icon: 'layer-group',
-      title: 'Full Stack Development',
-    }, {
-      icon: ['fab', 'linux'],
-      title: 'Open Source Community',
-    }],
+      title: 'Multimodal Learning',
+    }
+  ],
   experience: [
-    /*{
-      title: 'Work',
+    {
+      title: 'Labs',
       position: 'left',
       data: [
         {
-          date: 'Aug 2019 - Present',
-          title: 'Software Engineer',
-          location: 'Somewhere',
-          description: 'description',
+          date: 'May 2022 - Present',
+          title: 'Human-AI Lab',
+          location: 'University of Michigan',
+          description: 'Advised by Prof. Anhong Guo.',
+        },
+        {
+          date: 'May 2022 - Present',
+          title: 'Lifelong Learning Lab',
+          location: 'University of Michigan',
+          description: 'Advised by Prof. Xu Wang.',
+        },
+        {
+          date: 'Jul 2022 - Present',
+          title: 'Language and Information Technologies Lab',
+          location: 'University of Michigan',
+          description: 'Advised by Dr. Veronica Perez-Rosas.',
+        },
+        {
+          date: 'Jul 2022 - Sep 2022',
+          title: 'Jim Team',
+          location: 'NVIDIA',
+          description: 'Advised by Dr. Linxi "Jim" Fan.',
         },
       ],
-    },*/ {
-      title: 'Teaching',
+    },
+    {
+      title: 'Competitions',
       position: 'right',
       data: [
         {
-          date: 'Summer 2019',
-          title: 'Teaching Assistant',
-          description: 'VE572 (Methods and Tools for Big Data)',
-          location: 'Shanghai Jiao Tong University, China',
+          date: 'Feb 2021',
+          title: 'Mathematical Contest in Modeling',
+          location: 'remote',
+          description: 'Meritorious Winner Prize',
         }, {
-          date: 'Fall 2018',
-          title: 'Teaching Assistant',
-          description: 'VE482 (Introduction to Operating Systems)',
-          location: 'Shanghai Jiao Tong University, China',
-        }, {
-          date: 'Fall 2018',
-          title: 'Teaching Assistant',
-          description: 'VE281 (Data Structures and Algorithms)',
-          location: 'Shanghai Jiao Tong University, China',
-        }, {
-          date: 'Summer 2019',
-          title: 'Teaching Assistant',
-          description: 'VE280 (Programming and Elementary Data Structures)',
-          location: 'Shanghai Jiao Tong University, China',
-        }, {
-          date: 'Summer 2018',
-          title: 'Teaching Assistant',
-          description: 'VG101 (Introduction to Computer and Programming)',
-          location: 'Shanghai Jiao Tong University, China',
+          date: 'Nov 2020',
+          title: 'University Physics Competition',
+          location: 'remote',
+          description: 'Silver Medal',
         },
       ],
-    }, {
-      title: 'Open Source Community',
+    },
+    {
+      title: 'Volunteer',
       position: 'left',
       data: [
         {
-          date: 'Fall 2018 - Present',
-          title: 'Leader and Fullstack Developer',
-          description: '[Joint Online Judge](https://github.com/joint-online-judge): ' +
-            'Open source code judging and evaluation platform powered by async programming, containerization and modern frontend',
-          location: 'on GitHub',
+          date: 'Sept 2019 - Dec 2020',
+          title: 'JI Voluntary Association',
+          location: 'Jiangchuan Sunshine Nursing House, Shanghai',
+          description: 'Help people with mental difficulties.'
         }, {
-          date: '2021 - Present',
-          title: 'Researcher and Backend Developer',
-          description: '[Brick Schema Example Server](https://github.com/BrickSchema/brick-example-server): ' +
-            'Open-source ontology for building assets, subsystems and data',
-          location: 'on GitHub',
+          date: 'May 2020',
+          title: 'High School Advisory',
+          location: 'No.2 Foreign Language School, Wenzhou',
+          description: 'Advise high school students on College Entrance Examination Preparation.',
+        }
+      ],
+    },
+    {
+      title: 'Relevant Coursework',
+      position: 'right',
+      data: [
+        {
+          date: 'EECS 493',
+          location: 'User Interface Dev',
+        }, {
+          date: 'EECS 498',
+          location: 'Human-AI Interaction & Systems',
+        }, {
+          date: 'PHIL 340',
+          location: 'Mind & Machine',
+        }, {
+          date: 'EECS 445',
+          location: 'Intro Machine Learning',
+        }, {
+          date: 'EECS 487',
+          location: 'Intro to NLP',
+        }, {
+          date: 'EECS 498',
+          location: 'Deep Learning for Computer Vision',
+        }, {
+          date: 'EECS 598',
+          location: 'Science of Deep Learning',
+        }, {
+          date: 'EECS 485',
+          location: 'Web Systems',
+        }, {
+          date: 'EECS 482',
+          location: 'Intro Oper System',
         },
       ],
     },
   ],
   awards: [
     {
-      date: 'Nov 2019',
-      title: 'NTU Research Scholarship',
-    },
-    {
-      date: 'Feb 2019',
-      title: 'Meritorious Winner in Mathematical Contest In Modeling',
+      date: '2021 Fall, 2022 Winter',
+      title: 'University of Michigan Dean’s Honor List',
+    }, {
+      date: '2019-2020, 2020-2021',
+      title: 'SJTU Undergraduate Excellent Scholarship',
     },
   ],
   tagColors: [
