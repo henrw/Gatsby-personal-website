@@ -6093,10 +6093,10 @@ gatsby-telemetry@^2.14.0:
     lodash "^4.17.21"
     node-fetch "^2.6.1"
     uuid "3.4.0"
-
-gatsby-theme-academic-modified@^1.0.0:
-  version "2.0.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-academic-modified/-/gatsby-theme-academic-modified-1.0.0.tgz#6162c2c1b9a77e6cc8fa7ba6afd54624c0b037a5"
+ 
+gatsby-theme-academic-modified@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-academic-modified/-/gatsby-theme-academic-modified-1.0.1.tgz"
   integrity sha512-kZqZKKOCYu5hV8mOneq9KTkCnVo/i1FT3QdiVWJ3fCHjp9UN6qUT3/nRrL+2GyyzMauqYSevd7E047pw7NSalA==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.36"
