@@ -1,5 +1,5 @@
 {
-  "name": "tc-imba.github.io",
+  "name": "henrw.github.io",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tc-imba/tc-imba.github.io.git"
+    "url": "git+https://github.com/henrw/henrw.github.io.git"
   },
-  "author": "tc-imba",
+  "author": "henrw",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tc-imba/tc-imba.github.io/issues"
+    "url": "https://github.com/henrw/henrw.github.io/issues"
   },
-  "homepage": "https://github.com/tc-imba/tc-imba.github.io#readme",
+  "homepage": "https://github.com/henrw/henrw.github.io#readme",
   "dependencies": {
     "gatsby": "^3.14.0",
     "gatsby-theme-academic-modified": "^1.0.1",

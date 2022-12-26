@@ -1,6 +1,6 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://tc-imba.github.io',
+  siteUrl: 'https://henrw.github.io',
   title: 'Yihao Liu',
   description: 'Personal Website of Yihao Liu',
   author: 'Yihao Liu',
