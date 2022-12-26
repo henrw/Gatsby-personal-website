@@ -6096,7 +6096,7 @@ gatsby-telemetry@^2.14.0:
  
 gatsby-theme-academic-modified@^1.0.1:
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-academic-modified/-/gatsby-theme-academic-modified-1.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-academic-modified/-/gatsby-theme-academic-modified-1.0.1.tgz#6162c2c1b9a77e6cc8fa7ba6afd54624c0b037a5"
   integrity sha512-kZqZKKOCYu5hV8mOneq9KTkCnVo/i1FT3QdiVWJ3fCHjp9UN6qUT3/nRrL+2GyyzMauqYSevd7E047pw7NSalA==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.36"
