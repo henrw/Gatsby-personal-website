@@ -27,10 +27,10 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-b44656d64e4b52616b3d.js"
+    "url": "webpack-runtime-aaffe7ed8faba02f3e87.js"
   },
   {
-    "url": "styles.823e2e9fe39b8ade4539.css"
+    "url": "styles.2ab30d61ffc58ba899aa.css"
   },
   {
     "url": "framework-b1a62ccc8e4ef171476a.js"
@@ -48,21 +48,37 @@ self.__precacheManifest = [
     "url": "2745b1b1-4fec6a3d1e967ff49984.js"
   },
   {
-    "url": "app-f19a2598eee0804b8b42.js"
+    "url": "app-b55dca4f520d156491d5.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "d6debb5d16c4a2ab705116e1996a65da"
+    "revision": "b3829e4dd9a7b4c7a4fd1fca1178f1cb"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-35c2cf55787ca9224ef3.js"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "1b4c8f1d4b5140d97c9726abb46a30c0"
+  },
+  {
+    "url": "page-data/sq/d/1552981879.json",
+    "revision": "cf4091c2909812d0f2d680291c12eaff"
+  },
+  {
+    "url": "page-data/sq/d/2788541457.json",
+    "revision": "f34af12f04d61d7c62dd94b648acf7b2"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "6ebfa3c100f3c0b7bd4e0949b2a685c0"
   },
   {
     "url": "polyfill-ba198310dc7a907ccef9.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "8f98a542c4e9ac6f3dd3b4d7103a20a3"
+    "revision": "0f37bef208c9229ff61c9fc1262babeb"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -149,12 +165,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/gatsby-theme-academic`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-f19a2598eee0804b8b42.js`))) {
+  if (!resources || !(await caches.match(`/gatsby-theme-academic/app-b55dca4f520d156491d5.js`))) {
     return await fetch(event.request)
   }
 
@@ -167,7 +183,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/gatsby-theme-academic/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
