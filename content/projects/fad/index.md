@@ -14,7 +14,7 @@ links:
     url: "fad.pdf"
   - name: "Github"
     url: "https://github.com/zxp46/EECS487_Project_FAD"
-priority: 20
+priority: 3
 ---
 
 ## Introduction
