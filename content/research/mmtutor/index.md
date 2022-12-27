@@ -6,8 +6,8 @@ tags:
   - "HCI"
 date: May 2022 - Present
 
-path: "research/minedojo"
-excerpt: Dire Tide 2020
+path: "research/mmtutor"
+excerpt: A new ITS framework generalizable for 3D physical task learning. By leveraging AI and AR methods, it can not only generate adaptive guidance by modeling users’ learning stage and measuring difficulties of learning objects through multimodal input, but also preserve perspectives of reality for users with spatially augmented animations that reduce users’ cognitive load.
 selected: true
 cover: "./preview.png"
 links:
@@ -17,28 +17,38 @@ links:
     url: "https://github.com/HumanAILab/Multimodal-Tutor"
 priority: 1
 ---
+Advisors: [Prof. Xu Wang](https://web.eecs.umich.edu/~xwanghci/) and [Prof. Anhong Guo](https://guoanhong.com/)
+> This is an ongoing project about the broad topic of the intelligent tutoring system (ITS) and there have been many interesting ideas popping up. Please stay tuned for updates.
 
-## Title 1
+## Introduction
+Traditionally, self-learning of 3D physical tasks (e.g. playing basketball, assembly, etc.) relies on 2D static instructions, e.g. manuals and instruction videos, which
+- Lack instant feedback / dynamic task generation
+for knowledge enhancement
+- Have high cognitive load for hidden information
 
-### Preview
+The ITS is a potential approach to them. Nevertheless, challenges exist in
+- Capturing learners’ behaviors in 3D space
+- Preserving learning space & reality similarity
 
-[Preview](./preview.png)
+Consequently, we need a new ITS framework that copes with these issues...
+## Framework
+Here we provide the high-level diagram of our ITS framework. More design considerations will be disclosed.
+![Tutor framework](./tutor.png)
 
-### Website
+We specifically create the instance for the [Rubik's Cube](https://en.wikipedia.org/wiki/Rubik%27s_Cube). Here is a quick demo picture.
+![Demo origin](./demo.png)
 
-[Dire Tide 2020](https://www.dota2.com/diretide/?l=english)
+## Fundamentals
+### ArUco Marker
+ArUco Markers are really popular in XR applications. We applied them as they provide higher detection accuracy facilitating domain modeling (robust in different environments for their high contrast) and bigger design space for user feedback.
 
-## Title 2
+Please refer to [OpenCV library](https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html) for their usage.
 
-## Title 3
+![ArUco Markers](./markers.jpg)
 
-## Title 4
+### MediaPipe Hand
+> [MediaPipe](https://google.github.io/mediapipe/) offers cross-platform, customizable ML solutions for live and streaming media.
 
-```cpp
-#include <iostream>
+In our system, we applied MediaPipe [Hand](https://google.github.io/mediapipe/solutions/hands.html) for finger detection, facilitating user modeling.
 
-int main() {
-    std::cout << "Hello World!";
-    return 0;
-}
-```
+![Finger Detection](./finger.png)

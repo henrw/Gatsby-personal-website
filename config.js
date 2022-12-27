@@ -8,8 +8,8 @@ module.exports = {
   introduction: [
     'Hi👋! I am a senior undergraduate student in **Computer Science** at [University of Michigan](https://umich.edu/) and **Electrical and Computer Engineering** (dual-degree) at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/).',
     'My research interest lies in the interdisciplinary field of **Human-Computer Interaction** and **Artificial Intelligence**, in which I am keen on creating **intelligent interactive systems/agents🤖 that can learn from humans\' behaviors and respond in alignment with humans\' intents**. I’m fortunate to have worked with [Anhong Guo](https://guoanhong.com/), [Xu Wang](https://web.eecs.umich.edu/~xwanghci/), [Jim Fan](https://jimfan.me/), and [Veronica Perez Rosas](https://vrncapr.engin.umich.edu/) in this direction through my undergraduate research.',
-    '※ I am planning to continue my research journey in grad school. Please don\'t hesitate to email me if you have any opportunities.',
-    'In my free time, I love to play sports such as figure skating⛸️ and basketball🏀, which really motivates me to live a positive life. I also enjoy watching movies🎥 of different genres and share my thoughts on them.'
+    '> I am applying for grad school Fall 2023 Admission. Please don\'t hesitate to email me if you have any opportunities.',
+    'In my free time, I love to play sports such as figure skating⛸️ and basketball🏀, which I believe motivate me to live a positive life. I also enjoy watching movies🎥 of different genres and share my thoughts.'
   ],
   avatar: 'avatar.jpg',
   professions: [
@@ -18,7 +18,7 @@ module.exports = {
   ],
   tocMaxDepth: 2,
   excerptMaxLength: 500,
-  // birthday: 'Some day',
+  birthday: 'Aug 22, 2001',
   location: 'Ann Arbor, MI',
   email: 'henrw@umich.edu',
   postsForArchivePage: 3,
