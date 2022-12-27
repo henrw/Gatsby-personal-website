@@ -4,22 +4,22 @@ tags:
   - "GeneralistAgent"
   - "Simulation"
   - "RL"
-date: 2022-10-12
-# authors:
-#   - name: "Advised by Dr. Jim Fan"
-#     url: "https://jimfan.me/"
+date: Jul 2022 - Oct 2022
 path: "research/minedojo"
-excerpt: Dire Tide 2020
+excerpt: Investigate EGL docker image to enable GPU acceleration for scalable MineDojo RL simulation on headless machines; construct a meta-dataset of 20 open-ended, task-oriented datasets as the knowledge base for generalist agent training.
 selected: true
 cover: "./preview.jpeg"
 links:
   - name: "website"
     url: "https://minedojo.org/"
-priority: 20
+priority: 10
 ---
-
-## Title 1
-
+Advisor: [Dr. Jim Fan](https://jimfan.me/)
+## Introduction
+**MineDojo** is a new framework built on the popular [Minecraft](https://en.wikipedia.org/wiki/Minecraft) game for embodied agent research, featuring:
+- a simulation suite with 1000s of open-ended, language-prompted tasks and a procedurally generated world with versatile observation space for AI agents to freely explore.
+- a massive internet-scale knowledge base constructed with YouTube videos, Wiki pages, and Reddit posts.
+- a video-language contrastive model - MineCLIP - that associates videos and the text of various tasks, serving as the reward function.
 ### Preview
 
 [Preview](./preview.png)
@@ -34,11 +34,3 @@ priority: 20
 
 ## Title 4
 
-```cpp
-#include <iostream>
-
-int main() {
-    std::cout << "Hello World!";
-    return 0;
-}
-```

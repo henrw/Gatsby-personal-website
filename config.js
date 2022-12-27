@@ -1,29 +1,30 @@
 module.exports = {
-  pathPrefix: '',
+  pathPrefix: '/gatsby-theme-academic',
   siteUrl: 'https://henrw.github.io',
   title: 'Muzhe Wu',
   description: 'Personal Website of Muzhe Wu',
   author: 'Muzhe Wu',
   authorAlternative: '吴沐哲',
   introduction: [
-    'I am currently a senior student studying for a bachelor\'s degree in Computer Science at [University of Michigan](https://umich.edu/) and a dual degree in Electrical and Computer Engineering at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/).',
-    'My research interest mainly lies in the interdisciplinary field of Human-Computer Interaction and Artificial Intelligence, in which I focus on creating intelligent interactive systems/agents that can learn from humans’ behaviors and respond in alignment with humans’ intents.',
-    'I’m fortunate to have worked with Professors [Anhong Guo](https://guoanhong.com/), [Xu Wang](https://web.eecs.umich.edu/~xwanghci/), [Veronica Perez Rosas](https://vrncapr.engin.umich.edu/) through my undergraduate research.'
+    'Hi👋! I am a senior undergraduate student in **Computer Science** at [University of Michigan](https://umich.edu/) and **Electrical and Computer Engineering** (dual-degree) at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/).',
+    'My research interest lies in the interdisciplinary field of **Human-Computer Interaction** and **Artificial Intelligence**, in which I am keen on creating **intelligent interactive systems/agents🤖 that can learn from humans\' behaviors and respond in alignment with humans\' intents**. I’m fortunate to have worked with [Anhong Guo](https://guoanhong.com/), [Xu Wang](https://web.eecs.umich.edu/~xwanghci/), [Jim Fan](https://jimfan.me/), and [Veronica Perez Rosas](https://vrncapr.engin.umich.edu/) in this direction through my undergraduate research.',
+    '※ I am planning to continue my research journey in grad school. Please don\'t hesitate to email me if you have any opportunities.',
+    'In my free time, I love to play sports such as figure skating⛸️ and basketball🏀, which really motivates me to live a positive life. I also enjoy watching movies🎥 of different genres and share my thoughts on them.'
   ],
-  avatar: 'avatar.png',
+  avatar: 'avatar.jpg',
   professions: [
     'CSE Student',
     'HCI/AI Researcher'
   ],
   tocMaxDepth: 2,
   excerptMaxLength: 500,
-  // birthday: 'Some day',
+  birthday: 'Aug 22, 2001',
   location: 'Ann Arbor, MI',
   email: 'henrw@umich.edu',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  // disqusScript: process.env.DISQUS_SCRIPT
-  //   || 'https://tc-imba.disqus.com/embed.js',
+  disqusScript: process.env.DISQUS_SCRIPT
+    || 'https://tc-imba.disqus.com/embed.js',
   pages: {
     home: '/',
     posts: 'posts',
@@ -52,7 +53,6 @@ module.exports = {
     },
   ],
   // facebook: 'https://www.facebook.com/rolwin.monteiro',
-  // instagram: 'https://www.instagram.com/wumuzhe/',
   // rss: '/rss.xml',
   // wakatime: {
   //   username: 'tcimba',
@@ -99,25 +99,25 @@ module.exports = {
           date: 'May 2022 - Present',
           title: 'Human-AI Lab',
           location: 'University of Michigan',
-          description: 'Advised by Prof. Anhong Guo.',
+          description: 'Advised by [Prof. Anhong Guo](https://guoanhong.com/).',
         },
         {
           date: 'May 2022 - Present',
           title: 'Lifelong Learning Lab',
           location: 'University of Michigan',
-          description: 'Advised by Prof. Xu Wang.',
+          description: 'Advised by [Prof. Xu Wang](https://web.eecs.umich.edu/~xwanghci/).',
         },
         {
           date: 'Jul 2022 - Present',
           title: 'Language and Information Technologies Lab',
           location: 'University of Michigan',
-          description: 'Advised by Dr. Veronica Perez-Rosas.',
+          description: 'Advised by [Dr. Veronica Perez-Rosas](https://vrncapr.engin.umich.edu/).',
         },
         {
           date: 'Jul 2022 - Sep 2022',
           title: 'Jim Team',
           location: 'NVIDIA',
-          description: 'Advised by Dr. Linxi "Jim" Fan.',
+          description: 'Advised by [Dr. Linxi "Jim" Fan](https://jimfan.me/).',
         },
       ],
     },
@@ -143,15 +143,20 @@ module.exports = {
       position: 'left',
       data: [
         {
-          date: 'Sept 2019 - Dec 2020',
-          title: 'JI Voluntary Association',
-          location: 'Jiangchuan Sunshine Nursing House, Shanghai',
-          description: 'Help people with mental difficulties.'
+          date: 'June 2022 - Present',
+          title: 'Ann Arbor Figure Skating Club',
+          location: 'Ann Arbor Ice Cube, Michigan',
+          description: 'Help to organize [figure skating competitions](https://www.annarborfsc.org/).'
         }, {
           date: 'May 2020',
           title: 'High School Advisory',
-          location: 'No.2 Foreign Language School, Wenzhou',
-          description: 'Advise high school students on College Entrance Examination Preparation.',
+          location: 'No.2 Foreign Language School, Wenzhou, China',
+          description: 'Advise [high school students](http://wzew.wzer.net/) on College Entrance Examination Preparation.',
+        }, {
+          date: 'Sept 2019 - Dec 2020',
+          title: 'JI Voluntary Association',
+          location: 'Jiangchuan Sunshine Nursing House, Shanghai, China',
+          description: 'Play with people with mental difficulties.'
         }
       ],
     },
@@ -186,6 +191,9 @@ module.exports = {
         }, {
           date: 'EECS 482',
           location: 'Intro Oper System',
+        }, {
+          date: 'EECS 388',
+          location: 'Intro Comp Security',
         },
       ],
     },
