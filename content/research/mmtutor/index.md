@@ -52,3 +52,6 @@ Please refer to [OpenCV library](https://docs.opencv.org/4.x/d5/dae/tutorial_aru
 In our system, we applied MediaPipe [Hand](https://google.github.io/mediapipe/solutions/hands.html) for finger detection, facilitating user modeling.
 
 ![Finger Detection](./finger.png)
+
+### Presentation
+We presented our work at [Michigan AI Symposium 2022](../posts/mi-ai-symposium-2022) and won the Best Demo Award.
