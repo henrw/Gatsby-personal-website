@@ -12,7 +12,7 @@ cover: "./preview.png"
 links:
   - name: "Github"
     url: "https://github.com/henrw/VG101_project_MaskDistributionSimulator"
-priority: 5
+priority: 20
 ---
 
 ## Introduction
@@ -21,7 +21,7 @@ This is the course project for VG 101 Introduction to Programming conducted with
 Th motivation of this project is the disastrous COVID-19 spreading all around the world at that time. Due to its sudden strike, the shortage of medical resources, such as masks, inevitably occurred. To slow down the spreading of COVID-19, tons of masks from all over the country and the world should be transported to the cities in need. However, it is tricky to plan the mask distribution and estimate the real-life outcome, e.g. the Red Cross’ redistribution of mask in Wuhan causing discontentment among citizens in Hubei Province.
 
 ## Design
-### UIs
+### UI Features
 
 When staring the program, the input user interface will poop up:
 
@@ -48,7 +48,7 @@ Users can also click the "i" button to see the guide, and moreover, they can cli
 ### Maths
 #### Revised SIR model
 
-The model we chose for the simulation of masks interacting with infection numbers is [the SIR model](https://scipython.com/book/chapter-8-scipy/additional-examples/the-sir-epidemic-model/).
+The model we chose for the simulation of masks interacting with infection numbers is the SIR model (https://scipython.com/book/chapter-8-scipy/additional-examples/the-sir-epidemic-model/).
 
 In SIR model, three groups of people are divided for a pandemic:
 

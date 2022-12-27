@@ -4,16 +4,39 @@ tags:
   - "MisinformationDetection"
   - "MultimodalLearning"
   - "NLP"
-date: Jul 2022 - Present
+date: 2022-07-07
+
 path: "research/misinfoengage"
-excerpt: Create an interpretable video engagement rating pipeline consisting of multimodal data preprocessing, feature extraction with time alignment, and a special early fusion model; analyze the relation between misinformation and engagement.
+excerpt: Dire Tide 2020
 selected: true
 cover: "./preview.jpg"
 links:
   - name: "Github"
     url: "https://github.com/henrw/Misinfo-Engagement"
-priority: 2
+priority: 25
 ---
-Advisor: [Dr. Veronica Perez-Rosas](https://vrncapr.engin.umich.edu/).
 
-> This is an on going project planned for ACL 2022 submission. Please stay tuned for more details.
+## Title 1
+
+### Preview
+
+[Preview](./preview.jpg)
+
+### Website
+
+[Dire Tide 2020](https://www.dota2.com/diretide/?l=english)
+
+## Title 2
+
+## Title 3
+
+## Title 4
+
+```cpp
+#include <iostream>
+
+int main() {
+    std::cout << "Hello World!";
+    return 0;
+}
+```

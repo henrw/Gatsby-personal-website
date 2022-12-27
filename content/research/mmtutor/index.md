@@ -4,7 +4,7 @@ tags:
   - "IntelligentTutoringSystem"
   - "XR"
   - "HCI"
-date: May 2022 - Present
+date: 2022-05-31
 
 path: "research/minedojo"
 excerpt: Dire Tide 2020
@@ -15,7 +15,7 @@ links:
     url: "poster.pdf"
   - name: "Github"
     url: "https://github.com/HumanAILab/Multimodal-Tutor"
-priority: 1
+priority: 30
 ---
 
 ## Title 1
