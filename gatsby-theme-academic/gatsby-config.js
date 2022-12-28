@@ -62,6 +62,23 @@ module.exports = ({
       resolve: 'gatsby-plugin-mdx',
       options: {
         extensions: ['.mdx', '.md'],
+        remarkPlugins: [
+          require('remark-math'),
+          require('remark-gfm'),
+          require('remark-abbr'),
+          [
+            require('remark-external-links'),
+            {
+              target: '_blank',
+              rel: 'nofollow',
+            },
+          ],
+        ],
+        rehypePlugins: [
+          require('rehype-katex'),
+          require('rehype-slug'),
+          require('rehype-autolink-headings'),
+        ],
         gatsbyRemarkPlugins: [
           {
             resolve: 'gatsby-remark-copy-linked-files',

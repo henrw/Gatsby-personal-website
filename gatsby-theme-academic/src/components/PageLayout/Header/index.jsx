@@ -8,6 +8,7 @@ import Icon from '../../Icon';
 import LoadableSearch from '../../SearchBar/loadable';
 
 import * as style from './header.module.less';
+import 'katex/dist/katex.min.css';
 
 export default () => {
   const [menu, setMenu] = useState(false);
