@@ -1,8 +1,8 @@
-# tc-imba's Gatsby Personal Website Template for Academic Usage
+# Personal Website with Gatsby Academic Theme
 
-This website (template) is based on [Gatsby's RolwinReevan Portfolio template](https://github.com/rolwin100/rolwinreevan_gatsby_blog) using [ant-design](https://ant.design).
+This website (template) is modified from [tc-imba's gatsby-theme-academic](https://github.com/tc-imba/gatsby-theme-academic).
 
-It is rewritten for academic usage with the help of [Reapor-Yurnero](https://github.com/Reapor-Yurnero).
+I added the Research Section and fixed several bugs (tag selection, tag page, etc.)
 
 ## 🚀 Development
 
