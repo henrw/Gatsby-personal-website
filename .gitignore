@@ -1,5 +1,5 @@
 .idea
-
+.obsidian
 # Logs
 logs
 *.log
@@ -70,4 +70,6 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-**/node_modules
+/example/static/resume.*
+!/example/static/resume.tex
+/example/static/reference

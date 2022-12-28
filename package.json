@@ -1,26 +1,26 @@
 {
-  "name": "henrw.github.io",
-  "version": "1.0.0",
-  "description": "",
+  "name": "greatest-gastby-academic-template",
+  "private": true,
+  "description": "the most beautiful gatsby template ever designed using antd",
+  "version": "0.2.0",
+  "license": "MIT",
   "scripts": {
-    "build": "gatsby build --prefix-paths",
-    "develop": "gatsby develop",
-    "clean": "gatsby clean"
+    "build": "yarn workspace example build",
+    "develop": "yarn workspace example develop",
+    "clean": "yarn workspace example clean"
   },
+  "workspaces": [
+    "gatsby-theme-academic",
+    "example"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/henrw/henrw.github.io.git"
+    "url": "https://github.com/tc-imba/greatest-gatsby-academic-template"
   },
-  "author": "henrw",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/henrw/henrw.github.io/issues"
-  },
-  "homepage": "https://github.com/henrw/henrw.github.io#readme",
-  "dependencies": {
-    "gatsby": "^3.14.0",
-    "gatsby-theme-academic-modified": "^1.0.2",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
-  }
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "markdown"
+  ],
+  "dependencies": {}
 }
