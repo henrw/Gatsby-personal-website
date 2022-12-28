@@ -9,6 +9,7 @@ import Img from 'gatsby-image';
 import isRelativeUrl from 'is-relative-url';
 import React from 'react';
 
+import { useStaticQuery, graphql } from "gatsby"
 import { useSiteMetadata } from '../../utils/hooks';
 import Utils from '../../utils/pageUtils';
 import PostTag from '../PostTag';
@@ -27,6 +28,20 @@ const ProjectCard = (props) => {
 
   const siteMetadata = useSiteMetadata();
   const url = Utils.resolvePageUrl(path);
+
+  const pdfData = useStaticQuery(graphql`
+    {
+      allFile(filter: { extension: { eq: "pdf" } }) {
+        edges {
+          node {
+            publicURL
+            name
+          }
+        }
+      }
+    }
+  `).allFile.edges
+
   // const handleClick = (e) => {
   //   const tagName = e.target.tagName.toLowerCase();
   //   if (tagName !== 'a' && tagName !== 'span' && url) {
@@ -39,6 +54,15 @@ const ProjectCard = (props) => {
     let href = '#';
     if (link.url) {
       if (isRelativeUrl(link.url)) {
+        const [filename, fileExt] = link.url.split('.')
+        if (fileExt === 'pdf') {
+          console.log(filename)
+          pdfData.forEach(item => {
+            if (item.node.name === filename) {
+              link.url = item.node.publicURL;
+            }
+          })
+        }
         href = Utils.generateFullUrl(siteMetadata, link.url);
       } else {
         href = link.url;
