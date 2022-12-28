@@ -3,6 +3,7 @@ title: "Multimodal Cognitive Tutor"
 tags:
   - "IntelligentTutoringSystem"
   - "XR"
+  - "ComputerVision"
   - "HCI"
   - "UI"
 date: May 2022 - Present

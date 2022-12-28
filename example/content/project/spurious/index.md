@@ -2,6 +2,7 @@
 title: "Auxiliary Variables Improve Group Accuracy without Group Information"
 tags:
   - "SpuriousCorrelation"
+  - "ComputerVision"
   - "DeepLearning"
 date: 2022-12-10
 path: "project/spurious"

@@ -80,6 +80,10 @@ module.exports = {
             title: 'Natural Language Processing',
         },
         {
+            icon: 'eye',
+            title: 'Computer Vision',
+        },
+        {
             icon: 'layer-group',
             title: 'Multimodal Learning',
         }
@@ -252,7 +256,7 @@ module.exports = {
         },
         {
             id: 'gatsby',
-            name: 'Gatsby.js',
+            name: 'Gatsby',
             description:
                 'A framework built over ReactJS to generate static page web application.  ',
             color: '#6f309f',
