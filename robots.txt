@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://henrw.github.io/sitemap-index.xml
+Sitemap: https://henrw.github.io/sitemap/sitemap-index.xml
 Host: https://henrw.github.io
