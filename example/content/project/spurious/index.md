@@ -9,7 +9,7 @@ excerpt: Validate the effectiveness of auxiliary variables in the first stage of
 # selected: true
 cover: "./preview.png"
 links:
-  - name: "pdf"
+  - name: "PDF"
     url: "spurious.pdf"
   - name: "Github"
     url: "https://github.com/henrw/spurious-correlation-metadataset"

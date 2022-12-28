@@ -4,6 +4,7 @@ tags:
   - "IntelligentTutoringSystem"
   - "XR"
   - "HCI"
+  - "UI"
 date: May 2022 - Present
 
 path: "research/mmtutor"
@@ -11,7 +12,7 @@ excerpt: A new ITS framework generalizable for 3D physical task learning. By lev
 selected: true
 cover: "./preview.png"
 links:
-  - name: "poster"
+  - name: "Poster"
     url: "poster.pdf"
   - name: "Github"
     url: "https://github.com/HumanAILab/Multimodal-Tutor"
@@ -32,15 +33,15 @@ The ITS is a potential approach to them. Nevertheless, challenges exist in
 
 Consequently, we need a new ITS framework that copes with these issues...
 ## Framework
-Here we provide the high-level diagram of our ITS framework. More design considerations will be disclosed.
+Here we provide the high-level diagram of our ITS framework. More design considerations will be disclosed in the future.
 ![Tutor framework](./tutor.png)
 
-We specifically create the instance for the [Rubik's Cube](https://en.wikipedia.org/wiki/Rubik%27s_Cube). Here is a quick demo picture.
+We specifically created the instance for the [Rubik's Cube](https://en.wikipedia.org/wiki/Rubik%27s_Cube). Here is a quick demo picture.
 ![Demo origin](./demo.png)
 
 ## Fundamentals
 ### ArUco Marker
-ArUco Markers are really popular in XR applications. We applied them as they provide higher detection accuracy facilitating domain modeling (robust in different environments for their high contrast) and bigger design space for user feedback.
+ArUco Markers are really popular in XR applications. We later decided to apply them as they provide higher detection accuracy facilitating domain modeling (robust in different environments for their high contrast) and bigger design space for user feedback.
 
 Please refer to [OpenCV library](https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html) for their usage.
 
@@ -54,4 +55,4 @@ In our system, we applied MediaPipe [Hand](https://google.github.io/mediapipe/so
 ![Finger Detection](./finger.png)
 
 ### Presentation
-We presented our work at [Michigan AI Symposium 2022](../posts/mi-ai-symposium-2022) and won the Best Demo Award.
+We presented our work at [Michigan AI Symposium 2022](../posts/mi-ai-symposium-2022) and gratefully won the Best Demo Award.

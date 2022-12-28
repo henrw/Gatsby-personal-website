@@ -10,7 +10,7 @@ excerpt: A building block useful in the fine-tuning process for text generators 
 # selected: true
 cover: "./preview.png"
 links:
-  - name: "pdf"
+  - name: "PDF"
     url: "fad.pdf"
   - name: "Github"
     url: "https://github.com/zxp46/EECS487_Project_FAD"

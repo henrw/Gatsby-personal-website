@@ -12,6 +12,8 @@ cover: "./preview.png"
 links:
   - name: "Github"
     url: "https://github.com/henrw/gym-retro-pokemon"
+  - name: "Dataset"
+    url: "https://drive.google.com/file/d/1i2nzyMpVT9Mtr-RJ1dy3RE2FCFrsdDiz/view"
 priority: 4
 ---
 

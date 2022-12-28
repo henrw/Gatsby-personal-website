@@ -4,6 +4,7 @@ tags:
   - "Modeling"
   - "Simulation"
   - "OpenGL"
+  - "UI"
 date: 2020-08-10
 path: "project/mask"
 excerpt: A C++ program that simulates the distribution of masks among the cities with a certain mask production capacity during the COVID-19 pandemic.
@@ -16,7 +17,7 @@ priority: 5
 ---
 
 ## Introduction
-This is the course project for VG 101 Introduction to Programming conducted with Chenhao Zheng. It is actually **my first CS project**.
+This is the course project for VG 101 Introduction to Programming conducted with Chenhao Zheng. It is actually **my first CS project** where I had my first taste of UI development. Looking back on it, there are many things we did well and not so well in the sense of UI design, e.g. discoverability, learnability, understandability, etc.
 
 Th motivation of this project is the disastrous COVID-19 spreading all around the world at that time. Due to its sudden strike, the shortage of medical resources, such as masks, inevitably occurred. To slow down the spreading of COVID-19, tons of masks from all over the country and the world should be transported to the cities in need. However, it is tricky to plan the mask distribution and estimate the real-life outcome, e.g. the Red Cross’ redistribution of mask in Wuhan causing discontentment among citizens in Hubei Province.
 
@@ -48,7 +49,7 @@ Users can also click the "i" button to see the guide, and moreover, they can cli
 ### Maths
 #### Revised SIR model
 
-The model we chose for the simulation of masks interacting with infection numbers is [the SIR model](https://scipython.com/book/chapter-8-scipy/additional-examples/the-sir-epidemic-model/).
+The model we chose for the simulation of masks interacting with infection numbers is the SIR model [[1]](#references).
 
 In SIR model, three groups of people are divided for a pandemic:
 
@@ -72,7 +73,7 @@ $$
 $$
 where $\beta$ is a parameter describing the effective contact rate of the disease; $\gamma$ is a parameter describing the mean recovery rate (1/average_recover_days); $N$ is​ the total number of citizens in a city.
 
-We set up the SIR model for every city in Hubei Province and the change of $S$, $I$, $R$ can be achieved with iteration as long as $dt$ is small enough and the [initial conditions](http://www.mnw.cn/news/shehui/2245524.html) are provided.
+We set up the SIR model for every city in Hubei Province and the change of $S$, $I$, $R$ can be achieved with iteration as long as $dt$ is small enough and the initial conditions [[2]](#references) are provided.
 
 The important thing need to be addressed is how to describe parameters $\beta$ and $\gamma$, which should consider the influence of masks and other determinants in reality:
 
@@ -91,7 +92,7 @@ The important thing need to be addressed is how to describe parameters $\beta$ a
 
 - The mean recovery rate $\gamma$:
 
-  The average cure period for COVID-19 is [15 days](http://ask.39.net/question/66075613.html), so $\gamma$ should be around $\frac{1}{15}$. However, when there are too many patient, the lack of medical resources will make the average cure period longer. Therefore, considering the medical resources compared with the infected number, we set:
+  The average cure period for COVID-19 is 15 days [[3]](#references), so $\gamma$ should be around $\frac{1}{15}$. However, when there are too many patient, the lack of medical resources will make the average cure period longer. Therefore, considering the medical resources compared with the infected number, we set:
 
   - if $\text{num}\_\text{hospital}*\text{maximum}\_\text{hospital}\_\text{capacity}>=\text{infected}\_\text{num}$, $\gamma=\frac{1}{15}$.
 
@@ -133,3 +134,8 @@ With all these differential equations, the description of parameters as well as 
   | 7.20-7.27 |                  Complete the expected-line                  |
   |   7.31    | The data and map is successfully imported from the real condition in HuBei |
   |  8.1-8.7  | After meeting with the professor, we revise the project according to professor's suggestion |
+
+## References
+1. The SIR epidemic model. URL: https://scipython.com/book/chapter-8-scipy/additional-examples/the-sir-epidemic-model/.
+2. "The latest report on the novel coronavirus pneumonia in Hubei on February 1, the death toll in each city." *Hubei Provincial Health Commission.* URL: http://www.mnw.cn/news/shehui/2245524.html.
+3. "How long does it take to treat the COVID-19 pneumonia?" URL: http://ask.39.net/question/66075613.html.
