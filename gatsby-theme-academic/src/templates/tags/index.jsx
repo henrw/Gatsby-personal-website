@@ -70,12 +70,11 @@ const TagPage = ({
               <Row gutter={[20, 20]}>
                 {research.map((post, key) => (
                 // eslint-disable-next-line react/no-array-index-key
-                  <Col key={key} xs={24} sm={24} md={24} lg={24}>
+                  <Col key={key} xs={24} sm={24} md={24} lg={8}>
                     <ProjectCard data={post} tagsMap={tagsMap} />
                   </Col>
                 ))}
               </Row>
-              ,
             </>
           ) : null}
           {project.length > 0 ? (
@@ -84,12 +83,11 @@ const TagPage = ({
               <Row gutter={[20, 20]}>
                 {project.map((post, key) => (
                 // eslint-disable-next-line react/no-array-index-key
-                  <Col key={key} xs={24} sm={24} md={24} lg={24}>
+                  <Col key={key} xs={24} sm={24} md={24} lg={8}>
                     <ProjectCard data={post} tagsMap={tagsMap} />
                   </Col>
                 ))}
               </Row>
-              ,
             </>
           ) : null}
           {posts.length > 0 ? (
@@ -103,7 +101,6 @@ const TagPage = ({
                   </Col>
                 ))}
               </Row>
-              ,
             </>
           ) : null}
         </SidebarWrapper>

@@ -16,4 +16,4 @@ priority: 2
 ---
 Advisor: [Dr. Veronica Perez-Rosas](https://vrncapr.engin.umich.edu/).
 
-> This is an ongoing project planned for ACL 2022 submission. Please stay tuned for more details.
+> This is an ongoing project planned for ACL 2023 submission. Please stay tuned for more details.

@@ -69,9 +69,7 @@ const ProjectCard = (props) => {
       }
     }
     return (
-      <Row>
-        <Button shape="round" href={href} target="_blank" size="small">{link.name}</Button>
-      </Row>
+      <Button shape="round" href={href} target="_blank" size="small">{link.name}</Button>
     );
   };
 
@@ -147,11 +145,11 @@ const ProjectCard = (props) => {
         <a href={Utils.generateFullUrl(siteMetadata, url)}>
           <p style={{ marginTop: '1rem' }} dangerouslySetInnerHTML={{ __html: excerptHTML }} />
         </a>
-        <Col>
-          <Space direction="vertical">
+        <Row>
+          <Space direction="horizontal">
             {links ? links.map(generateLink) : null}
           </Space>
-        </Col>
+        </Row>
       </Row>
     </Card>
   );
