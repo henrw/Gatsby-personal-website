@@ -12,8 +12,8 @@ I added the Research Section and fixed several bugs (tag selection, tag page, et
 
     ```shell
     
-    git clone https://github.com/tc-imba/greatest-gatsby-academic-template.git
-    cd greatest-gatsby-academic-template
+    git clone https://github.com/tc-imba/gatsby-theme-academic.git
+    cd gatsby-theme-academic
     yarn
     ```
 
