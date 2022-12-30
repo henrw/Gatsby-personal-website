@@ -6,7 +6,7 @@ tags:
   - "ComputerVision"
   - "HCI"
   - "UI"
-date: May 2022 - Present
+date: 2022-05-31
 
 path: "research/mmtutor"
 excerpt: A new ITS framework generalizable for 3D physical task learning. By leveraging AI and AR methods, it can not only generate adaptive guidance by modeling users’ learning stage and measuring difficulties of learning objects through multimodal input, but also preserve perspectives of reality for users with spatially augmented animations that reduce users’ cognitive load.

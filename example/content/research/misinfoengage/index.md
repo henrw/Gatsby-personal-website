@@ -4,7 +4,7 @@ tags:
   - "MisinformationDetection"
   - "MultimodalLearning"
   - "NLP"
-date: Jul 2022 - Present
+date: 2022-07-07
 path: "research/misinfoengage"
 excerpt: Create an interpretable video engagement rating pipeline consisting of multimodal data preprocessing, feature extraction with time alignment, and a special early fusion model; analyze the relation between misinformation and engagement.
 selected: true

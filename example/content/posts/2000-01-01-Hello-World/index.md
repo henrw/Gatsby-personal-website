@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
 tags: ["Gatsby"]
-date: 2000-01-01
+date: 2001-08-23
 cover: "./preview.png"
 path: "posts/hello-world"
 excerpt: Template Markdown file exemplifying all the features supported by the Gatsby-theme-academic-modified.

@@ -4,7 +4,7 @@ tags:
   - "AbstractiveTextSummary"
   - "GAN"
   - "NLP"
-date: 2022-12-10
+date: 2022-04-21
 path: "project/fad"
 excerpt: A building block useful in the fine-tuning process for text generators like BART, which addresses problems of discreteness in adversarial learning for NLP, better captures the word distribution, and achieves SOTA ROUGE score of abstractive text summarization in DailyMail/CNN dataset. 
 # selected: true

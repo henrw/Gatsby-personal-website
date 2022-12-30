@@ -4,7 +4,7 @@ tags:
   - "GeneralistAgent"
   - "Simulation"
   - "RL"
-date: Jul 2022 - Oct 2022
+date: 2022-07-06
 path: "research/minedojo"
 excerpt: Investigate EGL docker image to enable GPU acceleration for scalable MineDojo RL simulation on headless machines; construct a meta-dataset of 20 open-ended, task-oriented datasets as the knowledge base for generalist agent training.
 selected: true
