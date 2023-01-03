@@ -9,7 +9,7 @@ module.exports = {
         'Hi👋! I am a senior undergraduate student in **Computer Science** at [University of Michigan](https://umich.edu/) and **Electrical and Computer Engineering** (dual-degree) at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/).',
         'My research interest lies in the interdisciplinary field of **Human-Computer Interaction** and **Artificial Intelligence**, in which I am keen on creating **intelligent interactive systems/agents🤖 that can learn from humans\' behaviors and respond in alignment with humans\' intents**. I’m fortunate to have worked with [Anhong Guo](https://guoanhong.com/), [Xu Wang](https://web.eecs.umich.edu/~xwanghci/), [Jim Fan](https://jimfan.me/), and [Veronica Perez Rosas](https://vrncapr.engin.umich.edu/) in this direction through my undergraduate research.',
         '※ I am applying for grad school Fall 2023 Admission. Please don\'t hesitate to email me if you have opportunities.',
-        'In my free time, I love to play competitive sports such as figure skating⛸️, basketball🏀, and ping-pong🏓. I strongly believe that sports can bring us together and motivate us to live a positive life.'
+        'In my free time, I love to play competitive sports such as figure skating⛸️, basketball🏀, and ping-pong🏓. I strongly believe in the benefits of sports in bringing us together and motivating us to live a positive life.'
     ],
     avatar: 'avatar.jpg',
     professions: [
