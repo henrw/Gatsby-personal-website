@@ -12,3 +12,5 @@ Three levels of embodiment:
 - Computational theory: What is the goal? why it is appropriate? what is the logic?
 - Representation and algorithm: How the theory is implemented? what is the representation of input and output?
 - Hardware implementation: how can representation and algorithm be realized physically?
+
+Different levels turned out to be loosely related, that some phenomena may only be explained at one/two level (e.g. human's mind serial vs. machine parallel; understanding perception vs understanding neurons; learning aerodynamics vs learning bird flight).
